@@ -19,9 +19,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/getamis/alice/crypto/circuit"
-	"github.com/getamis/alice/crypto/utils"
-	"github.com/getamis/alice/types"
+	"github.com/BoostyLabs/alice/crypto/circuit"
+	"github.com/BoostyLabs/alice/crypto/utils"
+	"github.com/BoostyLabs/alice/types"
 	"github.com/getamis/sirius/log"
 	"github.com/minio/blake2b-simd"
 )

@@ -4,8 +4,8 @@
 
 [1]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
 [2]: LICENSE
-[3]: https://goreportcard.com/badge/github.com/getamis/alice
-[4]: https://goreportcard.com/report/github.com/getamis/alice
+[3]: https://goreportcard.com/badge/github.com/BoostyLabs/alice
+[4]: https://goreportcard.com/report/github.com/BoostyLabs/alice
 [5]: https://travis-ci.com/getamis/alice.svg?branch=master
 [6]: https://travis-ci.com/getamis/alice
 [7]: https://codecov.io/gh/getamis/alice/branch/master/graph/badge.svg
@@ -69,7 +69,7 @@ Wallet: [Qubic](https://www.qubic.app/en.html)
 7. **dbnssystem**: write a positive integer to be [The Double-Base Number expression](https://link.springer.com/chapter/10.1007/978-3-540-70500-0_32).
 8. **ecpointgrouplaw**: an interface of group operations of elliptic curve groups.
 9. **elliptic**: support groups of of elliptic curve groups.
-10. **homo**: support additive homomorphic encryptions: [Castagnos and Laguillaumie homomorphic Scheme](https://github.com/getamis/alice/tree/master/crypto/homo/cl) and [Paillier homomorphic cryptosystem](https://github.com/getamis/alice/tree/master/crypto/homo/paillier).
+10. **homo**: support additive homomorphic encryptions: [Castagnos and Laguillaumie homomorphic Scheme](https://github.com/BoostyLabs/alice/tree/master/crypto/homo/cl) and [Paillier homomorphic cryptosystem](https://github.com/BoostyLabs/alice/tree/master/crypto/homo/paillier).
 11. **matrix**: support some operations of matrices over finite fields.
 12. **mta**: the special package used in the sign algorithm of ECDSA.
 13. **oprf**: support a hash function mapping to the points of secp256k1. (ref. [Shallue-van de Woestijne Method: Hashing to Elliptic Curves](https://tools.ietf.org/html/draft-irtf-cfrg-hash-to-curve-04#section-6.9.1))

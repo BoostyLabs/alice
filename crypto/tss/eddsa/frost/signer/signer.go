@@ -17,12 +17,12 @@ package signer
 import (
 	"math/big"
 
-	ecpointgrouplaw "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/tss"
-	"github.com/getamis/alice/crypto/tss/dkg"
-	"github.com/getamis/alice/crypto/tss/ecdsa/cggmp"
-	"github.com/getamis/alice/types"
-	"github.com/getamis/alice/types/message"
+	ecpointgrouplaw "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/tss"
+	"github.com/BoostyLabs/alice/crypto/tss/dkg"
+	"github.com/BoostyLabs/alice/crypto/tss/ecdsa/cggmp"
+	"github.com/BoostyLabs/alice/types"
+	"github.com/BoostyLabs/alice/types/message"
 	"github.com/getamis/sirius/log"
 )
 

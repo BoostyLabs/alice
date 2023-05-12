@@ -16,15 +16,15 @@ package signer
 import (
 	"time"
 
-	"github.com/getamis/alice/crypto/elliptic"
+	"github.com/BoostyLabs/alice/crypto/elliptic"
 
-	"github.com/getamis/alice/crypto/commitment"
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	mtaMocks "github.com/getamis/alice/crypto/mta/mocks"
-	"github.com/getamis/alice/crypto/tss"
-	"github.com/getamis/alice/crypto/zkproof"
-	"github.com/getamis/alice/types"
-	"github.com/getamis/alice/types/mocks"
+	"github.com/BoostyLabs/alice/crypto/commitment"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	mtaMocks "github.com/BoostyLabs/alice/crypto/mta/mocks"
+	"github.com/BoostyLabs/alice/crypto/tss"
+	"github.com/BoostyLabs/alice/crypto/zkproof"
+	"github.com/BoostyLabs/alice/types"
+	"github.com/BoostyLabs/alice/types/mocks"
 	"github.com/getamis/sirius/log"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

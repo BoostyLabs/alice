@@ -18,7 +18,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/getamis/alice/types"
+	"github.com/BoostyLabs/alice/types"
 )
 
 var (

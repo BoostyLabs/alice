@@ -16,10 +16,10 @@ syntax = "proto3";
 
 package getamis.alice.crypto.tss.ecdsa.gg18.signer;
 
-option go_package = "github.com/getamis/alice/crypto/tss/ecdsa/gg18/signer";
+option go_package = "github.com/BoostyLabs/alice/crypto/tss/ecdsa/gg18/signer";
 
-import "github.com/getamis/alice/crypto/commitment/message.proto";
-import "github.com/getamis/alice/crypto/zkproof/message.proto";
+import "github.com/BoostyLabs/alice/crypto/commitment/message.proto";
+import "github.com/BoostyLabs/alice/crypto/zkproof/message.proto";
 
 enum Type {
     Pubkey = 0;

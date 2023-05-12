@@ -17,11 +17,11 @@ package signSix
 import (
 	"math/big"
 
-	"github.com/getamis/alice/crypto/birkhoffinterpolation"
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/tss/ecdsa/cggmp"
-	paillierzkproof "github.com/getamis/alice/crypto/zkproof/paillier"
-	"github.com/getamis/alice/types/message"
+	"github.com/BoostyLabs/alice/crypto/birkhoffinterpolation"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/tss/ecdsa/cggmp"
+	paillierzkproof "github.com/BoostyLabs/alice/crypto/zkproof/paillier"
+	"github.com/BoostyLabs/alice/types/message"
 )
 
 type peer struct {

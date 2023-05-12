@@ -19,7 +19,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/getamis/alice/crypto/utils"
+	"github.com/BoostyLabs/alice/crypto/utils"
 )
 
 const (

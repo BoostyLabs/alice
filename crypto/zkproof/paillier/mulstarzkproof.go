@@ -17,8 +17,8 @@ package paillier
 import (
 	"math/big"
 
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/utils"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/utils"
 )
 
 func NewMulStarMessage(config *CurveConfig, ssidInfo []byte, x, rho, N0, C, D *big.Int, ped *PederssenOpenParameter, X *pt.ECPoint) (*MulStarMessage, error) {

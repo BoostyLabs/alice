@@ -17,10 +17,10 @@ package signSix
 import (
 	"math/big"
 
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/tss"
-	paillierzkproof "github.com/getamis/alice/crypto/zkproof/paillier"
-	"github.com/getamis/alice/types"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/tss"
+	paillierzkproof "github.com/BoostyLabs/alice/crypto/zkproof/paillier"
+	"github.com/BoostyLabs/alice/types"
 	"github.com/getamis/sirius/log"
 )
 

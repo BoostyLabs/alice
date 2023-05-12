@@ -15,9 +15,9 @@
 package master
 
 import (
-	ecpointgrouplaw "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/types"
+	ecpointgrouplaw "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/types"
 	"github.com/getamis/sirius/log"
 )
 

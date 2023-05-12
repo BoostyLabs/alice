@@ -16,10 +16,10 @@ package signer
 import (
 	"io/ioutil"
 
-	"github.com/getamis/alice/crypto/homo/paillier"
-	"github.com/getamis/alice/crypto/tss/ecdsa/gg18/signer"
-	"github.com/getamis/alice/example/utils"
-	"github.com/getamis/alice/types"
+	"github.com/BoostyLabs/alice/crypto/homo/paillier"
+	"github.com/BoostyLabs/alice/crypto/tss/ecdsa/gg18/signer"
+	"github.com/BoostyLabs/alice/example/utils"
+	"github.com/BoostyLabs/alice/types"
 	"github.com/getamis/sirius/log"
 	"github.com/golang/protobuf/proto"
 	"github.com/libp2p/go-libp2p/core/network"

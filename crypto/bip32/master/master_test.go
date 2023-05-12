@@ -19,9 +19,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/getamis/alice/crypto/tss"
-	"github.com/getamis/alice/types"
-	"github.com/getamis/alice/types/mocks"
+	"github.com/BoostyLabs/alice/crypto/tss"
+	"github.com/BoostyLabs/alice/types"
+	"github.com/BoostyLabs/alice/types/mocks"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"

@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/getamis/alice/example/utils"
+	"github.com/BoostyLabs/alice/example/utils"
 	"github.com/getamis/sirius/log"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/protocol"

@@ -17,9 +17,9 @@ package homo
 import (
 	"math/big"
 
-	"github.com/getamis/alice/crypto/elliptic"
+	"github.com/BoostyLabs/alice/crypto/elliptic"
 
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
 )
 
 //go:generate mockery -name Pubkey

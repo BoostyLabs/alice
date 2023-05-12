@@ -17,7 +17,7 @@ package paillier
 import (
 	"math/big"
 
-	"github.com/getamis/alice/crypto/elliptic"
+	"github.com/BoostyLabs/alice/crypto/elliptic"
 )
 
 const (

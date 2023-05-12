@@ -17,9 +17,9 @@ package signer
 import (
 	"errors"
 
-	"github.com/getamis/alice/crypto/commitment"
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/types"
+	"github.com/BoostyLabs/alice/crypto/commitment"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/types"
 	"github.com/getamis/sirius/log"
 )
 

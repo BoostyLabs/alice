@@ -15,7 +15,7 @@
 package refresh
 
 import (
-	"github.com/getamis/alice/types"
+	"github.com/BoostyLabs/alice/types"
 	"github.com/minio/blake2b-simd"
 	"google.golang.org/protobuf/proto"
 )

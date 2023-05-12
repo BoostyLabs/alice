@@ -15,8 +15,8 @@ package message
 import (
 	"context"
 
-	"github.com/getamis/alice/types"
-	"github.com/getamis/alice/types/mocks"
+	"github.com/BoostyLabs/alice/types"
+	"github.com/BoostyLabs/alice/types/mocks"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

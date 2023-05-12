@@ -17,8 +17,8 @@ package paillier
 import (
 	"math/big"
 
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/utils"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/utils"
 )
 
 func NewKnowExponentAndPaillierEncryption(config *CurveConfig, ssidInfo []byte, x, rho, C, n0 *big.Int, ped *PederssenOpenParameter, X *pt.ECPoint, G *pt.ECPoint) (*LogStarMessage, error) {

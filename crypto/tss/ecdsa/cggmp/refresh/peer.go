@@ -15,7 +15,7 @@
 package refresh
 
 import (
-	"github.com/getamis/alice/types/message"
+	"github.com/BoostyLabs/alice/types/message"
 )
 
 type peer struct {

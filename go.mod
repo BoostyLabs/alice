@@ -1,4 +1,4 @@
-module github.com/getamis/alice
+module github.com/BoostyLabs/alice
 
 go 1.19
 

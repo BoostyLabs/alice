@@ -16,10 +16,10 @@ syntax = "proto3";
 
 package getamis.alice.crypto.homo.cl;
 
-option go_package = "github.com/getamis/alice/crypto/homo/cl";
+option go_package = "github.com/BoostyLabs/alice/crypto/homo/cl";
 
-import "github.com/getamis/alice/crypto/binaryquadraticform/message.proto";
-import "github.com/getamis/alice/crypto/zkproof/message.proto";
+import "github.com/BoostyLabs/alice/crypto/binaryquadraticform/message.proto";
+import "github.com/BoostyLabs/alice/crypto/zkproof/message.proto";
 
 message PubKeyMessage {
     bytes p = 1;

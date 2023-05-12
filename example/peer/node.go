@@ -19,8 +19,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/getamis/alice/example/config"
-	"github.com/getamis/alice/example/utils"
+	"github.com/BoostyLabs/alice/example/config"
+	"github.com/BoostyLabs/alice/example/utils"
 	"github.com/getamis/sirius/log"
 	"github.com/golang/protobuf/proto"
 	"github.com/libp2p/go-libp2p"

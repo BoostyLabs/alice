@@ -16,10 +16,10 @@ package dkg
 import (
 	"math/big"
 
-	"github.com/getamis/alice/crypto/birkhoffinterpolation"
-	"github.com/getamis/alice/crypto/elliptic"
-	"github.com/getamis/alice/crypto/tss"
-	"github.com/getamis/alice/types/mocks"
+	"github.com/BoostyLabs/alice/crypto/birkhoffinterpolation"
+	"github.com/BoostyLabs/alice/crypto/elliptic"
+	"github.com/BoostyLabs/alice/crypto/tss"
+	"github.com/BoostyLabs/alice/types/mocks"
 	"github.com/getamis/sirius/log"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
