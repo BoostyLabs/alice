@@ -4,7 +4,7 @@
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//   http://www.apache.org/licenses/LICENSE-2.0
+//	http://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -27,6 +27,24 @@ type Pubkey struct {
 type BK struct {
 	X    string `yaml:"x"`
 	Rank uint32 `yaml:"rank"`
+}
+
+type PeersConfig struct {
+	Libp2pKeys map[string]string `yaml:"libp2p-keys"`
+}
+
+func ReadPeersConfig(filaPath string) (*PeersConfig, error) {
+	c := &PeersConfig{}
+	yamlFile, err := ioutil.ReadFile(filaPath)
+	if err != nil {
+		return nil, err
+	}
+	err = yaml.Unmarshal(yamlFile, c)
+	if err != nil {
+		return nil, err
+	}
+
+	return c, nil
 }
 
 func WriteYamlFile(yamlData interface{}, filePath string) error {
