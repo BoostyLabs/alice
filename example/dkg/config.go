@@ -17,12 +17,13 @@ import (
 	"fmt"
 	"io/ioutil"
 
+	"github.com/BoostyLabs/alice/crypto/tss/dkg"
 	"github.com/BoostyLabs/alice/example/config"
 	"github.com/getamis/sirius/log"
 	"gopkg.in/yaml.v2"
 )
 
-type ddd struct {
+type DKGConfig struct {
 	Port      int64   `yaml:"port"`
 	Rank      uint32  `yaml:"rank"`
 	Threshold uint32  `yaml:"threshold"`
@@ -35,8 +36,8 @@ type DKGResult struct {
 	BKs    map[string]config.BK `yaml:"bks"`
 }
 
-func readDKGConfigFile(filaPath string) (*ddd, error) {
-	c := &ddd{}
+func readDKGConfigFile(filaPath string) (*DKGConfig, error) {
+	c := &DKGConfig{}
 	yamlFile, err := ioutil.ReadFile(filaPath)
 	if err != nil {
 		return nil, err
@@ -49,7 +50,7 @@ func readDKGConfigFile(filaPath string) (*ddd, error) {
 	return c, nil
 }
 
-func writeDKGResult(id string, result *Result) error {
+func writeDKGResult(id string, result *dkg.Result) error {
 	dkgResult := &DKGResult{
 		Share: result.Share.String(),
 		Pubkey: config.Pubkey{
