@@ -15,11 +15,11 @@
 package dkg
 
 import (
-	"github.com/getamis/alice/crypto/birkhoffinterpolation"
-	"github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/tss"
-	"github.com/getamis/alice/crypto/tss/ecdsa/cggmp"
-	"github.com/getamis/alice/types"
+	"github.com/BoostyLabs/alice/crypto/birkhoffinterpolation"
+	"github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/tss"
+	"github.com/BoostyLabs/alice/crypto/tss/ecdsa/cggmp"
+	"github.com/BoostyLabs/alice/types"
 	"github.com/getamis/sirius/log"
 )
 

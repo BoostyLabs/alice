@@ -17,8 +17,8 @@ package paillier
 import (
 	"math/big"
 
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/utils"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/utils"
 )
 
 func NewELog(config *CurveConfig, ssidInfo []byte, y, lambda *big.Int, L, M, X, Y, h *pt.ECPoint) (*ELogMessage, error) {

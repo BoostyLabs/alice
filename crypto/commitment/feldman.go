@@ -18,11 +18,11 @@ import (
 	"errors"
 	"math/big"
 
-	bkhoff "github.com/getamis/alice/crypto/birkhoffinterpolation"
-	"github.com/getamis/alice/crypto/ecpointgrouplaw"
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/elliptic"
-	"github.com/getamis/alice/crypto/polynomial"
+	bkhoff "github.com/BoostyLabs/alice/crypto/birkhoffinterpolation"
+	"github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/elliptic"
+	"github.com/BoostyLabs/alice/crypto/polynomial"
 )
 
 var (

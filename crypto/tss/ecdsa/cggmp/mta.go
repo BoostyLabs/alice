@@ -17,10 +17,10 @@ package cggmp
 import (
 	"math/big"
 
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/homo/paillier"
-	"github.com/getamis/alice/crypto/utils"
-	paillierzkproof "github.com/getamis/alice/crypto/zkproof/paillier"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/homo/paillier"
+	"github.com/BoostyLabs/alice/crypto/utils"
+	paillierzkproof "github.com/BoostyLabs/alice/crypto/zkproof/paillier"
 )
 
 var (

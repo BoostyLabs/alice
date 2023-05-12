@@ -4,7 +4,7 @@
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//   http://www.apache.org/licenses/LICENSE-2.0
+//	http://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -17,13 +17,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/getamis/alice/crypto/tss/dkg"
-	"github.com/getamis/alice/example/config"
+	"github.com/BoostyLabs/alice/example/config"
 	"github.com/getamis/sirius/log"
 	"gopkg.in/yaml.v2"
 )
 
-type DKGConfig struct {
+type ddd struct {
 	Port      int64   `yaml:"port"`
 	Rank      uint32  `yaml:"rank"`
 	Threshold uint32  `yaml:"threshold"`
@@ -36,8 +35,8 @@ type DKGResult struct {
 	BKs    map[string]config.BK `yaml:"bks"`
 }
 
-func readDKGConfigFile(filaPath string) (*DKGConfig, error) {
-	c := &DKGConfig{}
+func readDKGConfigFile(filaPath string) (*ddd, error) {
+	c := &ddd{}
 	yamlFile, err := ioutil.ReadFile(filaPath)
 	if err != nil {
 		return nil, err
@@ -50,7 +49,7 @@ func readDKGConfigFile(filaPath string) (*DKGConfig, error) {
 	return c, nil
 }
 
-func writeDKGResult(id string, result *dkg.Result) error {
+func writeDKGResult(id string, result *Result) error {
 	dkgResult := &DKGResult{
 		Share: result.Share.String(),
 		Pubkey: config.Pubkey{

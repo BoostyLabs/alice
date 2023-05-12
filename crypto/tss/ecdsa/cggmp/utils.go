@@ -15,8 +15,8 @@
 package cggmp
 
 import (
-	"github.com/getamis/alice/crypto/birkhoffinterpolation"
-	"github.com/getamis/alice/types"
+	"github.com/BoostyLabs/alice/crypto/birkhoffinterpolation"
+	"github.com/BoostyLabs/alice/types"
 	"google.golang.org/protobuf/proto"
 )
 

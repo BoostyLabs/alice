@@ -18,7 +18,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/getamis/alice/types"
+	"github.com/BoostyLabs/alice/types"
 )
 
 var (

@@ -15,9 +15,9 @@
 package dkg
 
 import (
-	"github.com/getamis/alice/crypto/elliptic"
-	"github.com/getamis/alice/crypto/tss/dkg"
-	"github.com/getamis/alice/types"
+	"github.com/BoostyLabs/alice/crypto/elliptic"
+	"github.com/BoostyLabs/alice/crypto/tss/dkg"
+	"github.com/BoostyLabs/alice/types"
 )
 
 func NewDKG(peerManager types.PeerManager, threshold uint32, rank uint32, listener types.StateChangedListener) (*dkg.DKG, error) {

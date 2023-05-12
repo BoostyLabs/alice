@@ -15,7 +15,7 @@
 package addshare
 
 import (
-	"github.com/getamis/alice/types"
+	"github.com/BoostyLabs/alice/types"
 )
 
 func (m *Message) IsValid() bool {

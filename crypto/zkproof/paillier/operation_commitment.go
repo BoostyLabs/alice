@@ -17,7 +17,7 @@ package paillier
 import (
 	"math/big"
 
-	"github.com/getamis/alice/crypto/utils"
+	"github.com/BoostyLabs/alice/crypto/utils"
 )
 
 func NewPaillierOperationAndPaillierCommitment(config *CurveConfig, ssidInfo []byte, x *big.Int, y *big.Int, rho *big.Int, rhox *big.Int, rhoy *big.Int, n0 *big.Int, n1 *big.Int, X *big.Int, Y *big.Int, C *big.Int, D *big.Int, ped *PederssenOpenParameter) (*PaillierOperationAndCommitmentMessage, error) {

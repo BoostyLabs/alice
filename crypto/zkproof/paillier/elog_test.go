@@ -17,8 +17,8 @@ package paillier
 import (
 	"math/big"
 
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/elliptic"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/elliptic"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

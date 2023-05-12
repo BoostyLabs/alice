@@ -19,13 +19,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/getamis/alice/crypto/commitment"
-	"github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/tss"
-	"github.com/getamis/alice/crypto/tss/ecdsa/cggmp"
-	"github.com/getamis/alice/crypto/utils"
-	"github.com/getamis/alice/crypto/zkproof"
-	"github.com/getamis/alice/types"
+	"github.com/BoostyLabs/alice/crypto/commitment"
+	"github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/tss"
+	"github.com/BoostyLabs/alice/crypto/tss/ecdsa/cggmp"
+	"github.com/BoostyLabs/alice/crypto/utils"
+	"github.com/BoostyLabs/alice/crypto/zkproof"
+	"github.com/BoostyLabs/alice/types"
 	"github.com/getamis/sirius/log"
 )
 

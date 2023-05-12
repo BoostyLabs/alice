@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/getamis/alice/crypto/elliptic"
+	"github.com/BoostyLabs/alice/crypto/elliptic"
 )
 
 var (

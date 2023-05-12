@@ -17,9 +17,9 @@ package child
 import (
 	"math/big"
 
-	"github.com/getamis/alice/crypto/homo"
-	"github.com/getamis/alice/crypto/ot"
-	"github.com/getamis/alice/types/message"
+	"github.com/BoostyLabs/alice/crypto/homo"
+	"github.com/BoostyLabs/alice/crypto/ot"
+	"github.com/BoostyLabs/alice/types/message"
 )
 
 type peer struct {

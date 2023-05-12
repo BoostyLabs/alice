@@ -17,8 +17,8 @@ package paillier
 import (
 	"math/big"
 
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/utils"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/utils"
 )
 
 func NewEncryptRangeWithELMessage(config *CurveConfig, ssidInfo []byte, x, rho, a, b, ciphertext, N *big.Int, A, B, X *pt.ECPoint, ped *PederssenOpenParameter) (*EncElgMessage, error) {

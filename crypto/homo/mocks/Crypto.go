@@ -3,12 +3,12 @@
 package mocks
 
 import (
-	elliptic "github.com/getamis/alice/crypto/elliptic"
+	elliptic "github.com/BoostyLabs/alice/crypto/elliptic"
 	big "math/big"
 
-	ecpointgrouplaw "github.com/getamis/alice/crypto/ecpointgrouplaw"
+	ecpointgrouplaw "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
 
-	homo "github.com/getamis/alice/crypto/homo"
+	homo "github.com/BoostyLabs/alice/crypto/homo"
 
 	mock "github.com/stretchr/testify/mock"
 )

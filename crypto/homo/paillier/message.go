@@ -17,7 +17,7 @@ package paillier
 import (
 	"math/big"
 
-	"github.com/getamis/alice/crypto/utils"
+	"github.com/BoostyLabs/alice/crypto/utils"
 )
 
 func (msg *PubKeyMessage) ToPubkey() (*publicKey, error) {

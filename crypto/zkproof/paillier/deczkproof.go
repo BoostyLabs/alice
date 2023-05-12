@@ -17,7 +17,7 @@ package paillier
 import (
 	"math/big"
 
-	"github.com/getamis/alice/crypto/utils"
+	"github.com/BoostyLabs/alice/crypto/utils"
 )
 
 func NewDecryMessage(config *CurveConfig, ssidInfo []byte, y, rho, N0, C, x *big.Int, ped *PederssenOpenParameter) (*DecryMessage, error) {

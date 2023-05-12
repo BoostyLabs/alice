@@ -16,17 +16,17 @@
 // versions:
 // 	protoc-gen-go v1.26.0
 // 	protoc        v3.6.1
-// source: github.com/getamis/alice/crypto/bip32/master/message.proto
+// source: github.com/BoostyLabs/alice/crypto/bip32/master/message.proto
 
 package master
 
 import (
-	birkhoffinterpolation "github.com/getamis/alice/crypto/birkhoffinterpolation"
-	circuit "github.com/getamis/alice/crypto/circuit"
-	commitment "github.com/getamis/alice/crypto/commitment"
-	ecpointgrouplaw "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	ot "github.com/getamis/alice/crypto/ot"
-	zkproof "github.com/getamis/alice/crypto/zkproof"
+	birkhoffinterpolation "github.com/BoostyLabs/alice/crypto/birkhoffinterpolation"
+	circuit "github.com/BoostyLabs/alice/crypto/circuit"
+	commitment "github.com/BoostyLabs/alice/crypto/commitment"
+	ecpointgrouplaw "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	ot "github.com/BoostyLabs/alice/crypto/ot"
+	zkproof "github.com/BoostyLabs/alice/crypto/zkproof"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

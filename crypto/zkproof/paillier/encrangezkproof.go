@@ -17,7 +17,7 @@ package paillier
 import (
 	"math/big"
 
-	"github.com/getamis/alice/crypto/utils"
+	"github.com/BoostyLabs/alice/crypto/utils"
 )
 
 func NewEncryptRangeMessage(config *CurveConfig, ssidInfo []byte, ciphertext *big.Int, proverN *big.Int, k *big.Int, rho *big.Int, ped *PederssenOpenParameter) (*EncryptRangeMessage, error) {

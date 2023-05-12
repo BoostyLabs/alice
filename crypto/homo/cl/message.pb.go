@@ -16,13 +16,13 @@
 // versions:
 // 	protoc-gen-go v1.26.0
 // 	protoc        v3.6.1
-// source: github.com/getamis/alice/crypto/homo/cl/message.proto
+// source: github.com/BoostyLabs/alice/crypto/homo/cl/message.proto
 
 package cl
 
 import (
-	binaryquadraticform "github.com/getamis/alice/crypto/binaryquadraticform"
-	zkproof "github.com/getamis/alice/crypto/zkproof"
+	binaryquadraticform "github.com/BoostyLabs/alice/crypto/binaryquadraticform"
+	zkproof "github.com/BoostyLabs/alice/crypto/zkproof"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

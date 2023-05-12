@@ -17,7 +17,7 @@ package paillier
 import (
 	"math/big"
 
-	"github.com/getamis/alice/crypto/utils"
+	"github.com/BoostyLabs/alice/crypto/utils"
 )
 
 func NewMulMessage(ssidInfo []byte, x, rho, rhox, N, X, Y, C, fieldOrder *big.Int) (*MulMessage, error) {

@@ -13,9 +13,9 @@
 package message
 
 import (
-	"github.com/getamis/alice/types"
-	mMocks "github.com/getamis/alice/types/message/mocks"
-	"github.com/getamis/alice/types/mocks"
+	"github.com/BoostyLabs/alice/types"
+	mMocks "github.com/BoostyLabs/alice/types/message/mocks"
+	"github.com/BoostyLabs/alice/types/mocks"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"google.golang.org/protobuf/proto"

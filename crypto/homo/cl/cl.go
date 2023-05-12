@@ -19,13 +19,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/getamis/alice/crypto/elliptic"
+	"github.com/BoostyLabs/alice/crypto/elliptic"
 
-	bqForm "github.com/getamis/alice/crypto/binaryquadraticform"
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/homo"
-	"github.com/getamis/alice/crypto/utils"
-	zkproof "github.com/getamis/alice/crypto/zkproof"
+	bqForm "github.com/BoostyLabs/alice/crypto/binaryquadraticform"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/homo"
+	"github.com/BoostyLabs/alice/crypto/utils"
+	zkproof "github.com/BoostyLabs/alice/crypto/zkproof"
 	"github.com/golang/protobuf/proto"
 )
 

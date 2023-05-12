@@ -4,7 +4,7 @@
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//   http://www.apache.org/licenses/LICENSE-2.0
+//	http://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/getamis/alice/crypto/birkhoffinterpolation"
-	"github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/elliptic"
-	"github.com/getamis/alice/crypto/tss/dkg"
-	"github.com/getamis/alice/example/config"
+	"github.com/BoostyLabs/alice/crypto/birkhoffinterpolation"
+	"github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/elliptic"
+	"github.com/BoostyLabs/alice/crypto/tss/dkg"
+	"github.com/BoostyLabs/alice/example/config"
 	"github.com/getamis/sirius/log"
 )
 

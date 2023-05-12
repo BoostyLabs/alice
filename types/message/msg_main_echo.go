@@ -19,13 +19,14 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/getamis/alice/types"
+	"github.com/BoostyLabs/alice/types"
 	"github.com/getamis/sirius/log"
 	"github.com/minio/blake2b-simd"
 	"google.golang.org/protobuf/proto"
 )
 
 // Message defines the message interface
+//
 //go:generate mockery --name=EchoMessage
 type EchoMessage interface {
 	proto.Message

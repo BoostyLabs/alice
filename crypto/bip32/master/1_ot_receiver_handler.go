@@ -15,7 +15,7 @@
 package master
 
 import (
-	"github.com/getamis/alice/types"
+	"github.com/BoostyLabs/alice/types"
 	"github.com/getamis/sirius/log"
 )
 

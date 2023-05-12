@@ -17,7 +17,7 @@ package paillier
 import (
 	"math/big"
 
-	"github.com/getamis/alice/crypto/utils"
+	"github.com/BoostyLabs/alice/crypto/utils"
 )
 
 func NewNthRoot(config *CurveConfig, ssidInfo []byte, rho, rhoNPower, n *big.Int) (*NthRootMessage, error) {

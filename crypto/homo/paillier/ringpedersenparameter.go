@@ -17,8 +17,8 @@ package paillier
 import (
 	"math/big"
 
-	"github.com/getamis/alice/crypto/utils"
-	zkPaillier "github.com/getamis/alice/crypto/zkproof/paillier"
+	"github.com/BoostyLabs/alice/crypto/utils"
+	zkPaillier "github.com/BoostyLabs/alice/crypto/zkproof/paillier"
 )
 
 type PederssenParameter struct {

@@ -17,9 +17,9 @@ package master
 import (
 	"math/big"
 
-	pt "github.com/getamis/alice/crypto/ecpointgrouplaw"
-	"github.com/getamis/alice/crypto/utils"
-	"github.com/getamis/alice/types"
+	pt "github.com/BoostyLabs/alice/crypto/ecpointgrouplaw"
+	"github.com/BoostyLabs/alice/crypto/utils"
+	"github.com/BoostyLabs/alice/types"
 	"github.com/getamis/sirius/log"
 )
 
